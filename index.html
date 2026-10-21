@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Nutricare</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1, h2 {
+            color: #2c3e50;
+        }
+        h1 {
+            border-bottom: 2px solid #eee;
+            padding-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Privacy Policy for Nutricare / Nutrihub</h1>
+    <p><strong>Effective Date:</strong> October 21, 2026</p>
+
+    <h2>1. Introduction</h2>
+    <p>This Privacy Policy applies to the Nutricare (also labeled as Nutrihub) application. Nutricare is a diet and grocery tracking application designed to generate personalized daily diet plans and grocery lists. Your privacy is highly important to us, and this policy outlines how your information is handled when you use our app.</p>
+
+    <h2>2. Information Collection and Use</h2>
+    <ul>
+        <li><strong>Local Storage:</strong> The app prioritizes your privacy by keeping your data locally on your device. We use <code>shared_preferences</code> to save your diet goals, custom variables, and app settings directly on your phone. We do not maintain a central database or require user accounts, meaning your personal dietary data is not collected or stored on external servers by us.</li>
+        <li><strong>AI Generation:</strong> To generate your daily diet plans and 7-day grocery lists, the app connects to an external AI service (Google Gemini API) over the internet. The prompt data you input regarding your dietary preferences is sent securely via HTTP to this service to return the requested plans.</li>
+    </ul>
+
+    <h2>3. App Permissions and Device Access</h2>
+    <p>To function properly, the app requires specific device permissions:</p>
+    <ul>
+        <li><strong>Internet Access:</strong> Required to communicate with the AI API to generate your diet and grocery plans, and to display web content.</li>
+        <li><strong>Notifications:</strong> Used to send you local reminders and timer notifications regarding your diet plans.</li>
+        <li><strong>Alarms & Boot Receiver:</strong> Ensures that your scheduled diet reminders and timers persist and restart correctly even if you turn your device off and on again.</li>
+        <li><strong>Hardware Requirements:</strong> The app is strictly designed for mobile phones and does not support large screen devices like tablets or TVs.</li>
+    </ul>
+
+    <h2>4. Third-Party Services</h2>
+    <p>The app utilizes the following third-party dependencies which may process data according to their own privacy policies:</p>
+    <ul>
+        <li><strong>Google Gemini API:</strong> Receives user prompts to generate diet and grocery plans in Bangla.</li>
+        <li><strong>Flutter Local Notifications & Timezone:</strong> Used purely locally on the device to manage reminder schedules.</li>
+        <li><strong>WebView Flutter:</strong> May be used to display external articles or resources within the app.</li>
+    </ul>
+
+    <h2>5. Data Security</h2>
+    <p>Because your data is primarily stored locally on your device using shared preferences, it is protected by your device’s built-in security and lock screen measures. We do not sell, trade, or otherwise transfer your personal information to outside parties.</p>
+
+    <h2>6. Changes to This Privacy Policy</h2>
+    <p>We may update our Privacy Policy from time to time. We will notify you of any changes by publishing the new Privacy Policy within the app. You are advised to review this Privacy Policy periodically for any changes.</p>
+
+    <h2>7. Contact Us</h2>
+    <p>If you have any questions or suggestions about this Privacy Policy, please contact the developer at Mr. psycho.</p>
+
+</body>
+</html>
